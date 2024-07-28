@@ -1,0 +1,43 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: #61dafb;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .post {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+  }
+  
+  .post h3 {
+    margin: 0 0 10px;
+  }
+  
+  .post p {
+    margin: 0 0 10px;
+  }
+  
+  .post div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
